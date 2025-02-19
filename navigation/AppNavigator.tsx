@@ -42,7 +42,7 @@ const AppNavigator: React.FC = () => {
       <Tab.Screen
         name="HomeTab"
         component={HomeStack}
-        options={{title: 'Home'}}
+        options={{title: 'Home', headerShown: false}}
       />
       <Tab.Screen name="Profile" component={ProfileScreen} />
     </Tab.Navigator>
