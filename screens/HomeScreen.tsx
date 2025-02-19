@@ -26,6 +26,31 @@ const blogs = [
     title: 'Redux Toolkit Overview',
     description: 'State management made simple.',
   },
+  {
+    id: '4',
+    title: 'Using React Native UI Components',
+    description: 'Learn how to use the built-in UI components.',
+  },
+  {
+    id: '5',
+    title: 'Customizing React Native Components',
+    description: 'Make your app look unique.',
+  },
+  {
+    id: '6',
+    title: 'React Native APIs',
+    description: 'Learn how to use the built-in APIs.',
+  },
+  {
+    id: '7',
+    title: 'Using a third-party APIs',
+    description: 'Learn how to use third-party APIs.',
+  },
+  {
+    id: '8',
+    title: 'React Native Performance Optimizations',
+    description: 'Optimize your app for maximum performance.',
+  },
 ];
 
 const HomeScreen: React.FC<HomeScreenProps> = ({navigation}) => {
